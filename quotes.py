@@ -4,7 +4,7 @@ from flask_sqlalchemy import SQLAlchemy
 app=Flask(__name__)
 
 #app.config['SQLALCHEMY_DATABASE_URI']="postgresql://postgres:Ella135!@localhost/quotes"
-app.config['SQLALCHEMY_DATABASE_URI']="postgres://vjdjwqkanaaaby:6fd09f6a179e024a7024878250279d893ccba47a85db9c50c837fd89dd945600@ec2-107-23-76-12.compute-1.amazonaws.com:5432/d2e1r86df7ph7r"
+app.config['SQLALCHEMY_DATABASE_URI']="postgres://coozucqfvwbane:032e72f45f8b14e1a1d5620bb49d22297fd90b468f2cf7d9bf9ea41c2a0a0b9d@ec2-44-197-128-108.compute-1.amazonaws.com:5432/dabfqcjnh2gj8b"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=False # event notification - track resources
 app.debug=True
 
